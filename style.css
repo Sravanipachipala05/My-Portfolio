@@ -1,0 +1,179 @@
+#none{
+    color:blue;
+}
+header{
+    display:flex;
+    align-items: center;
+    background-color:#1E293B;
+    color:white;
+    box-shadow:0 2px 10px rgba(0,0,0,0,3);
+}
+
+#head{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    height:0px;
+    width:600px;
+    margin-left:400px;
+}
+
+
+#box{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+#one{
+    width:850px;
+    height:200px;
+    margin-right:5px;
+}
+#two{
+    text-decoration:underline;
+}
+.three{
+    width:500px;
+    height:400px;
+    margin-left:200px;
+    text-align: center;
+     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    
+    
+}
+#all{
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+#box1{
+    margin-left:20px;
+}
+#tion{
+    text-decoration:underline;
+}
+#studies{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    margin-right:500px;
+}
+#six{
+    text-decoration:underline;
+}
+#four{
+    text-decoration:underline;
+}
+#seven{
+    text-decoration:underline;
+}
+#eight{
+    text-decoration:underline;
+    margin-left:45px;
+}
+
+#details{
+    width:1000px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+
+}
+#three{
+    height:300px;
+    width:600px;
+}
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #1E293B;
+    color:#CBD5E1;
+    padding:20px;
+}
+#me{
+    width:500px;
+}
+#image{
+    background-image:url("code.jpg");
+    background-size: cover;
+}
+*{
+    margin:5px;
+    padding:5px;
+    box-sizing:border-box;
+}
+
+#code{
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    background-image:url("code.jpg");
+    background-size:cover;
+    margin-left:300px;
+}
+#pic{
+    display:flex;
+    flex-direction: row;
+}
+
+ li,ul{
+    list-style:none;
+}
+body{
+    background-color: #0F172A;
+    COLOR:#F8FAFC;
+}
+#head{
+    background-color: #1E293B;
+}
+
+h1,h2,h3,h4{
+    color:#38BDF8 ;
+}
+
+button{
+    background-color: #38BDF8;
+    color:white;
+}
+button:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+ #projects{
+    height:300px;
+    width:600px;}
+    h3{
+    text-decoration: underline;
+ }
+
+ #amazon{
+    height:200px;
+    width:300px;
+    border:solid 2px #38BDF8;
+    background-color: #1E293B;
+    color:white;
+ }
+ a{
+    color:white;
+ }
+ #amazon:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 20px;
+}
